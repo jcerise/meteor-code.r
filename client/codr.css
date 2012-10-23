@@ -7,3 +7,8 @@ body {
     padding-top: 0px;
   }
 }
+
+#login-buttons {
+  padding-top: 12px;
+  float: right;
+}

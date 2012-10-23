@@ -9,3 +9,5 @@ preserve-inputs
 jquery
 bootstrap
 backbone
+accounts-ui
+accounts-password
