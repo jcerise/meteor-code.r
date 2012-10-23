@@ -1,0 +1,38 @@
+<head>
+  <title>Code.r</title>
+  <link rel="shortcut icon" href="/img/favicon.ico">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  	<div class="navbar navbar-inverse navbar-fixed-top">
+	    <div class="navbar-inner">
+	      <div class="container">
+	        {{> navbar}}
+	      </div>
+	    </div>
+	</div>
+  <div class="container">
+    {{> content}}  
+  </div>
+</body>
+
+<template name="navbar">
+        <a class="brand" href="/">Code.r</a>
+        <ul class="nav">
+          <li><a class="about-link" href="/about">About</a></li>
+          <li><a class="github-link" href="https://github.com/jcerise/meteor-code.r">Code.r on Github</a></li>
+        </ul>
+</template>
+
+<template name="content">
+  <div>
+    {{#if displayAbout}}
+    <h1>About Code.r</h1>
+    About Code.r...
+    {{else}}
+    <h1>Welcome to Code.r</h1>
+    Welcome to Code.r
+    {{/if}}
+  </div>
+</template>
