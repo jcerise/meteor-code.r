@@ -32,8 +32,12 @@
     <h1>About Code.r</h1>
     About Code.r...
     {{else}}
-    <h1>Welcome to Code.r</h1>
-    Welcome to Code.r
+      {{> mainContent}}
     {{/if}}
   </div>
+</template>
+
+<template name="mainContent">
+  <h1>Welcome to Code.r</h1>
+  {{validUser}}
 </template>

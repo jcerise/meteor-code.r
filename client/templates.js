@@ -8,3 +8,13 @@ Template.content.displayAbout = function() {
     return false;
   }
 };
+
+Template.mainContent.validUser = function() {
+  user = Meteor.user();
+  console.log(user);
+  if (Meteor.user()){
+    return  "Welcome, you have successfully logged in!";
+  }else{
+    return "You are not logged in!";
+  }
+};
