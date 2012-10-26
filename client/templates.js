@@ -19,6 +19,8 @@ Template.mainContent.validUser = function() {
   }
 };
 
+Snippets = new Meteor.Collection("snippets");
+
 Template.mainContent.snippets = function() {
     return Snippets.find({},{});
 };
