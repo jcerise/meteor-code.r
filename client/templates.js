@@ -18,3 +18,7 @@ Template.mainContent.validUser = function() {
     return "You are not logged in!";
   }
 };
+
+Template.mainContent.snippets = function() {
+    return Snippets.find({},{});
+};

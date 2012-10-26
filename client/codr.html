@@ -40,4 +40,7 @@
 <template name="mainContent">
   <h1>Welcome to Code.r</h1>
   {{validUser}}
+  {{#each snippets}}
+    {{> snippet}}
+  {{/each}}
 </template>
