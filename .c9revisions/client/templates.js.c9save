@@ -3,3 +3,4 @@
 {"ts":1351291915348,"patch":[[{"diffs":[[0,"d in!\";\n  }\n};\n\n"],[1,"Snippets = new Meteor.Collection(\"snippets\");\n\n"],[0,"Template.mainCon"]],"start1":484,"start2":484,"length1":32,"length2":79}]],"length":627,"saved":false}
 {"contributors":[],"silentsave":false,"ts":1351664424176,"patch":[[{"diffs":[[0,",{});\n};"],[1,"\n\nTemplate.snippet.rendered = function() {\n    SyntaxHighlighter.all();\n};"]],"start1":619,"start2":619,"length1":8,"length2":82}]],"length":701,"saved":false}
 {"ts":1351664836702,"patch":[[{"diffs":[[0,"unction() {\n"],[1,"    //Load the syntax highlighter once all content has been rendered\n"],[0,"    SyntaxHi"]],"start1":658,"start2":658,"length1":24,"length2":93}]],"length":770,"saved":false}
+{"ts":1351665105177,"patch":[[{"diffs":[[0,".all();\n"],[1,"    console.log(\"Template snippet rendered\");\n"],[0,"};"]],"start1":760,"start2":760,"length1":10,"length2":56}]],"length":816,"saved":false}
