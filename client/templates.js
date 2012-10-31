@@ -24,3 +24,7 @@ Snippets = new Meteor.Collection("snippets");
 Template.mainContent.snippets = function() {
     return Snippets.find({},{});
 };
+
+Template.snippet.rendered = function() {
+    SyntaxHighlighter.all();
+};
