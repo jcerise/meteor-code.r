@@ -23,6 +23,7 @@ Meteor.startup(function() {
 
     for (var i = 0; i < data.length; i++) {
       Snippets.insert({title: data[i].title,
+                       body: data[i].body,
                        tags: data[i].tags});
     }
   }
