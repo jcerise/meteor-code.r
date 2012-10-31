@@ -12,11 +12,11 @@ Meteor.startup(function() {
        tags: ["Test", "Test2", "Test3"]
       },
       {title: "Test Snippet 2",
-       body: '<pre class="brush: js">\n' +
+       body: '<script type="syntaxhighlighter" class="brush: js">\n' +
              'function () {\n' +
              '  alert("test");\n' +
              '}\n' +
-             '</pre>',
+             '</script>',
        tags: ["Test2", "Test3"]
       }
     ];
