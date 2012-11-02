@@ -4,11 +4,9 @@ Meteor.startup(function() {
   if (Snippets.find().count() === 0) {
     var data = [
       {title: "Test Snippet",
-       body: '<pre class="brush: js">\n' +
-             'function () {\n' +
+       body: 'function () {\n' +
              '  alert("test");\n' +
-             '}\n' +
-             '</pre>',
+             '}\n',
        tags: ["Test", "Test2", "Test3"]
       },
       {title: "Test Snippet 2",
