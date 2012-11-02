@@ -27,6 +27,6 @@ Template.mainContent.snippets = function() {
 
 Template.snippet.rendered = function() {
     //Load the syntax highlighter once all content has been rendered
-    window.setTimeout(SyntaxHighlighter.all(), 200);
+    SyntaxHighlighter.all();
     console.log("Template snippet rendered");
 };
