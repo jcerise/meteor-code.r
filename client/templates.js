@@ -22,7 +22,18 @@ Template.mainContent.validUser = function() {
 Snippets = new Meteor.Collection("snippets");
 
 Template.mainContent.snippets = function() {
-    return Snippets.find({},{});
+    var query = Snippets.find({});
+    
+    query.observe({
+      added: function(snippet) {
+        window.setTimeout(SyntaxHighlighter.all(), 200);
+      },
+      changed: function(snippet) {
+        window.setTimeout(SyntaxHighlighter.all(), 200);
+      }
+    }); 
+
+    return query;
 };
 
 Template.mainContent.rendered = function() {
