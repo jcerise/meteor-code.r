@@ -39,7 +39,7 @@ Template.mainContent.snippets = function() {
 Template.mainContent.rendered = function() {
     //Load the syntax highlighter once all content has been rendered
     Meteor.defer(function() {
-      //SyntaxHighlighter.all();
+      SyntaxHighlighter.all();
       console.log("Template snippet rendered");
     });
 };
