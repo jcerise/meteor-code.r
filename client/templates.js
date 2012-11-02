@@ -25,7 +25,7 @@ Template.mainContent.snippets = function() {
     return Snippets.find({}, {});
 };
 
-Template.mainContent.rendered = function() {
+Template.content.rendered = function() {
     //Load the syntax highlighter once all content has been rendered
     Meteor.defer(function() {
       SyntaxHighlighter.all();
