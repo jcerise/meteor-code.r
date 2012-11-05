@@ -30,6 +30,7 @@ Template.snippet.body = function() {
     
     var bodyCode = hljs.highlightAuto(this.body).value;
     
+    //comment
     var t=bodyCode.length;
     if (bodyCode.charAt(0)=='"') bodyCode=bodyCode.substring(1,t--);
 	if (bodyCode.charAt(--t)=='"') bodyCode=bodyCode.substring(0,t);
