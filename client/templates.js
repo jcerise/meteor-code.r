@@ -22,13 +22,18 @@ Template.mainContent.validUser = function() {
 Snippets = new Meteor.Collection("snippets");
 
 Template.mainContent.snippets = function() {
-    return Snippets.find({}, {});
+    var snippets = Snippets.find({}, {});
+    snippets.forEach(function(snippet) {
+      //blah
+    });
+    //var fetchedObjects =  
+    return snippets;
 };
 
 Template.content.rendered = function() {
     //Load the syntax highlighter once all content has been rendered
     Meteor.defer(function() {
-      SyntaxHighlighter.all();
       console.log("Template snippet rendered");
+      hljs.initHighlighting();
     });
 };
