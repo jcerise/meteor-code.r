@@ -32,3 +32,4 @@
 {"ts":1352098493022,"patch":[[{"diffs":[[0,"(this);\n"],[1,"    jQuery(\".body\").hide();\n"],[0,"}\n"]],"start1":860,"start2":860,"length1":10,"length2":38}]],"length":898,"saved":false}
 {"ts":1352098717406,"patch":[[{"diffs":[[0,"\").h"],[-1,"ide("],[1,"tml(hljs.highlightAuto(this.data.body).value"],[0,");\n}"]],"start1":885,"start2":885,"length1":12,"length2":52}]],"length":938,"saved":false}
 {"ts":1352098817133,"patch":[[{"diffs":[[0,"\").html("],[1,"'<pre><code>' + "],[0,"hljs.hig"]],"start1":885,"start2":885,"length1":16,"length2":32},{"diffs":[[0,"y).value"],[1," + '</code></pre>'"],[0,");\n}\n"]],"start1":941,"start2":941,"length1":13,"length2":31}]],"length":972,"saved":false}
+{"ts":1352098974426,"patch":[[{"diffs":[[0,"re><code"],[1," class=\"javascript\""],[0,">' + hlj"]],"start1":896,"start2":896,"length1":16,"length2":35}]],"length":991,"saved":false}
