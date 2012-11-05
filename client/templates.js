@@ -31,6 +31,7 @@ Template.snippet.body = function() {
     return this.body;
 }
 
-Template.mainContent.rendered = function() {
-    hljs.initHighlighting();   
+Template.snippet.rendered = function() {
+    hljs.initHighlighting();
+    console.log(this);
 }
