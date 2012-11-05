@@ -19,9 +19,7 @@ Meteor.startup(function() {
 
     for (var i = 0; i < data.length; i++) {
       Snippets.insert({title: data[i].title,
-                       body: "<pre><code>" + 
-                         hljs.highlightAuto(data[i].body).value +
-                         "</code></pre>",
+                       body: data[i].body,
                        tags: data[i].tags});
     }
   }
