@@ -14,3 +14,4 @@
 {"ts":1352094572902,"patch":[[{"diffs":[[0,"dy\">"],[-1,"{{body}}"],[1,"<script>hljs.autoHighlight({{body}}).value;</script>"],[0,"</di"]],"start1":1324,"start2":1324,"length1":16,"length2":60}]],"length":1445,"saved":false}
 {"ts":1352094802846,"patch":[[{"diffs":[[0,"ght("],[1,"\""],[0,"{{body}}"],[1,"\""],[0,").va"]],"start1":1351,"start2":1351,"length1":16,"length2":18}]],"length":1447,"saved":false}
 {"ts":1352095036566,"patch":[[{"diffs":[[0,"dy\"><script>"],[1,"return "],[0,"hljs.autoHig"]],"start1":1324,"start2":1324,"length1":24,"length2":31}]],"length":1454,"saved":false}
+{"ts":1352095874126,"patch":[[{"diffs":[[0,"y\"><"],[-1,"script>return hljs.autoHighlight(\"{{body}}\").value;</script"],[1,"pre><code>{{body}}</code></pre"],[0,"></d"]],"start1":1325,"start2":1325,"length1":67,"length2":38}]],"length":1425,"saved":false}
