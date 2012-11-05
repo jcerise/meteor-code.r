@@ -33,3 +33,4 @@
 {"ts":1352098717406,"patch":[[{"diffs":[[0,"\").h"],[-1,"ide("],[1,"tml(hljs.highlightAuto(this.data.body).value"],[0,");\n}"]],"start1":885,"start2":885,"length1":12,"length2":52}]],"length":938,"saved":false}
 {"ts":1352098817133,"patch":[[{"diffs":[[0,"\").html("],[1,"'<pre><code>' + "],[0,"hljs.hig"]],"start1":885,"start2":885,"length1":16,"length2":32},{"diffs":[[0,"y).value"],[1," + '</code></pre>'"],[0,");\n}\n"]],"start1":941,"start2":941,"length1":13,"length2":31}]],"length":972,"saved":false}
 {"ts":1352098974426,"patch":[[{"diffs":[[0,"re><code"],[1," class=\"javascript\""],[0,">' + hlj"]],"start1":896,"start2":896,"length1":16,"length2":35}]],"length":991,"saved":false}
+{"ts":1352099076367,"patch":[[{"diffs":[[0,"js.highlight"],[-1,"Auto("],[1,"('javascript', "],[0,"this.data.bo"]],"start1":930,"start2":930,"length1":29,"length2":39}]],"length":1001,"saved":false}

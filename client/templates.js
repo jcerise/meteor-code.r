@@ -34,5 +34,5 @@ Template.snippet.body = function() {
 Template.snippet.rendered = function() {
     hljs.initHighlighting();
     console.log(this);
-    jQuery(".body").html('<pre><code class="javascript">' + hljs.highlightAuto(this.data.body).value + '</code></pre>');
+    jQuery(".body").html('<pre><code class="javascript">' + hljs.highlight('javascript', this.data.body).value + '</code></pre>');
 }
