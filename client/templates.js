@@ -27,5 +27,12 @@ Template.mainContent.snippets = function() {
 
 Template.snippet.body = function() {
     console.log(hljs.highlightAuto(this.body));
-    return hljs.highlightAuto(this.body).value;
+    
+    var bodyCode = hljs.highlightAuto(this.body).value;
+    
+    var t=bodyCode.length;
+    if (bodyCode.charAt(0)=='"') bodyCode=bodyCode.substring(1,t--);
+	if (bodyCode.charAt(--t)=='"') bodyCode=bodyCode.substring(0,t);
+    
+    return bodyCode;
 }
