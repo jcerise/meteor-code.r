@@ -26,5 +26,7 @@ Template.mainContent.snippets = function() {
 };
 
 Template.snippet.body = function() {
-    console.log(this);
+    var bodyCode = hljs.autoHighlight(this.body).value;
+    console.log(bodyCode);
+    return bodyCode;
 }
